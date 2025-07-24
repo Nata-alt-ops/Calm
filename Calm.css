@@ -11,6 +11,7 @@ body, html {
     margin: 0;
     padding: 0;
     position: fixed;
+    z-index: 1000; 
 }
 .logo_buttons_head{
     width: 1200px;
@@ -101,6 +102,10 @@ body, html {
     height: 1191.75px;
     top: 100px;
     left: 336px;
+    display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+    justify-content: space-between
 
 }
 .card_1{
@@ -114,7 +119,8 @@ body, html {
 }
 .card_1_img{
     transition: all 0.5s ease;
-    will-change: transform;
+ 
+
 }
 .card_1_img:hover{
     transform: scale(1.05);
@@ -172,18 +178,116 @@ body, html {
 }
 .card_2{
     width: 243.31px;
-    height: 255.73px;
+    max-height: 255.73px;
     top:1px;
-    margin-left: 0.63px;
+    margin-left: 0.20px;
     background-color: #ffffff;
-    overflow: hidden;
     border-radius: 0 0 10px 10px;
-  
+    
 }
 .card_2_img{
-    transition: all 0.5s ease;
-    will-change: transform;
+     transition: all 0.5s ease;
+    
 }
+.card_0{
+    overflow: hidden;
+}
+    
+
 .card_2_img:hover{
     transform: scale(1.05);
+}
+
+
+.card2_text1{
+    width: 75px;
+    height: 12px;
+    top:20px;
+    left: 20px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #353732;
+    margin-left: 20px;
+}
+.card2_text2{
+    width: 151px;
+    height: 22px;
+    top:41px;
+    margin-left: 20px;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.6px;
+    letter-spacing: 0;
+    color: #45525B;
+}
+.card2_text4{
+    width: 96px;
+    height: 17px;
+    top:209px;
+    margin-left:20px;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16.8px;
+    letter-spacing: 0;
+    color:#45525B ;
+    margin-top: 6px;
+}
+
+.card_3{
+    width: 243.31px;
+    height: 276.84px;
+    margin-left: 0.063px;
+    background-color: #ffffff;
+    margin-top: 35px;
+    overflow: hidden;
+    border-radius: 0 0 10px 10px;
+
+}
+.card_3_img{
+    transition: all 0.5s ease;
+}
+.card_3_img:hover{
+    transform: scale(1.05);
+}
+.card3_text1{
+    width: 42px;
+    height: 12px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #353732;
+    margin-left: 20px;
+}
+.card3_text2{
+    width: 168px;
+    height: 44px;
+    top:42px;
+    margin-left: 20px;
+    font-family: 'Palatino Linotype';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.6px;
+    letter-spacing: 0;
+    color: #45525B;
+}
+.card3_text4{
+    width: 96px;
+    height: 17px;
+    margin-top: 6px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16.8px;
+    letter-spacing: 0;
+    color:#45525B ;
+    margin-left: 20px;
 }
